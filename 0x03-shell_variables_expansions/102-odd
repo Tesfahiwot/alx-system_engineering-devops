@@ -1,2 +1,3 @@
 #!/bin/bash
-perl -lne "\n printf if $. %2==1"
+perl -lne "echo if $. %2==1"
+
