@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e $($.%2==1) 
+cat - | grep "$. %2==1" 
