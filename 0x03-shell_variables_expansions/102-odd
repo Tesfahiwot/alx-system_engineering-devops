@@ -1,2 +1,2 @@
 #!/bin/bash
-paste if -d%2==1, -- | cut -d, -f1
+paste if $.%2==1, -- | cut -f1
