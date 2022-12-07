@@ -1,2 +1,4 @@
 #!/bin/bash
-cat - | grep "$. %2==1" 
+cat - | grep "$. %2==1" | while read l_line
+do
+	echo $l_line
