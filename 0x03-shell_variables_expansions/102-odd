@@ -1,4 +1,2 @@
 #!/bin/bash
-cat - | grep "$. %2==1" | while read l_line
-do
-	echo $l_line
+perl -lne "printf if $. %2==1"
